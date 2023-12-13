@@ -1,0 +1,7 @@
+Flask==2.0.1
+Werkzeug==2.0.1
+psycopg2==2.9.1
+python-dotenv==0.19.1
+Adafruit-ADS1x15
+APScheduler==3.6.3
+pytz==2021.3
