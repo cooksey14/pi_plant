@@ -14,8 +14,6 @@ logging.basicConfig(level=logging.DEBUG)
 
 # Use the API endpoint to insert data into the database
 def insert_data_into_db():
-    conn = connect_to_database()
-    cur = conn.cursor()
     response = app.test_client().post('/insert_moisture_data')
     return response.json()
 
