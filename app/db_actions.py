@@ -11,7 +11,7 @@ load_dotenv()
 def connect_to_database():
     # Your database connection parameters
     db_params = {
-        "host": "localhost",
+        "host": os.getenv("DB_HOST"),
         "port": int(os.getenv("DB_PORT")),
         "database": os.getenv("DB_NAME"),
         "user": os.getenv("DB_USER"),
